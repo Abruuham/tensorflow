@@ -20,7 +20,16 @@ Create a folder on your machine named 'tensorflow' and place it into your C:\ dr
 The training model I decided to use the ssd_mobilenet_v1_coco model which can be found [here](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf1_detection_zoo.md). If you go to the page you can see that there are different models that have higher accuracy but consequently take longer so I believe this was a good option for speed and efficiency. You will also need the .config file for this which you can get [here](https://github.com/tensorflow/models/blob/master/research/object_detection/samples/configs/ssd_mobilenet_v1_pets.config) which is the same thing but using the configuration for pets rather than ordinary objects
 
 #### Step 2c. Setting up conda environment
-Open up a commmand window and enter this comman
+Open up a commmand window and enter this command
 ```bash
 conda create -n tensorflow pip python=3.6
 ```
+What we are doing is creating a new environment with the name of tensorflow and making sure it can use pip and setting the python version within the enironment as 3.6.
+
+Next, to use our environment you we can activate it by using this command in our window:
+```bash
+conda activate tensorflow
+```
+
+We will then install tensorflow
+

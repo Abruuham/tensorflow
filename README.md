@@ -1,3 +1,6 @@
+![boat](boat.png)
+
+
 # This is a repository to hold the data for the AI Tracks at sea challenge
 ## This is a short walkthrough of how to train a neural network to identify the boat
 
